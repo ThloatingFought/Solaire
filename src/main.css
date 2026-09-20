@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: Cinzel;
-    src: url("src/fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
+    src: url("fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
 }
 
 @font-face {
     font-family: sourceSerif4;
-    src: url("src/fonts/Source_Serif_4/SourceSerif4-VariableFont_opsz\,wght.ttf");
+    src: url("fonts/Source_Serif_4/SourceSerif4-VariableFont_opsz\,wght.ttf");
 }
 
 :root {
@@ -39,4 +39,3 @@ main {
     max-width: 1400px;
     margin: auto;
 }
-
