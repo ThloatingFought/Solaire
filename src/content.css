@@ -1,0 +1,148 @@
+.hero {
+    background: url("/src/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    height: 60svh;
+    font-family: Cinzel;
+}
+
+.hero-backdrop {
+    padding: calc(var(--gap-size) * 4);
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero span {
+    display: block;
+}
+
+.hero-pre {
+    font-size: 1.4rem;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--gold-light);
+}
+
+.about {
+    display: flex;
+    gap: var(--gap-size);
+    border-bottom: 1px solid #333;
+}
+
+.about-comp {
+    margin: auto;
+    aspect-ratio: 1/1 !important;
+    padding: calc(var(--gap-size) * 2);
+    width: 30%;
+}
+
+.about-text-heading {
+    font-weight: normal;
+    color: var(--gold);
+    font-family: Cinzel;
+}
+
+.about-text-seperator {
+    width: 10%;
+    height: 2px;
+    margin-top: calc(var(--gap-size) * .5);
+    margin-bottom: calc(var(--gap-size) * .5);
+    background-color: var(--gold);
+}
+
+.about-quote {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-size);
+}
+
+.about-quote-img {
+    width: 40%;
+}
+
+.about-quote-quote {
+    font-size: 1.5rem;
+}
+
+.about-quote-cite {
+    font-size: .7rem;
+}
+
+.theories {
+    padding: calc(var(--gap-size) * 2);
+}
+
+.theories-heading {
+    font-family: Cinzel;
+    color: var(--gold);
+    text-align: center;
+    font-weight: normal;
+}
+
+.theories-seperator {
+    width: 10%;
+    height: 2px;
+    background-color: var(--gold);
+    margin: calc(var(--gap-size) * .5) auto;
+}
+
+.theory-control {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-bottom: var(--gap-size);
+}
+
+.theory-btn {
+    background-color: transparent;
+    border: 1px solid var(--gold-light);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: var(--gap-size);
+    color: var(--text);
+    flex-grow: 1;
+    transition: background .4s, color .4s;
+}
+
+.theory-btn:hover {
+    background-color: var(--gold-light);
+    color: var(--bg);
+}
+
+.theory-btn:nth-child(1) {
+    border-right: 1px solid var(--gold-light);
+}
+
+.theory-btn:nth-child(3) {
+    border-left: 1px solid var(--gold-light);
+}
+
+.theory-container {
+    width: 80%;
+    margin: auto;
+}
+
+.theory-title {
+    text-align: center;
+    font-family: Cinzel;
+    color: var(--gold);
+    font-size: 1.5rem;
+}
+
+.theory-text {
+    text-align: left;
+    max-width: 64ch;
+    margin: var(--gap-size) 0;
+}

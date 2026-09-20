@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url("/src/fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: sourceSerif4;
+    src: url("/src/fonts/Source_Serif_4/SourceSerif4-VariableFont_opsz\,wght.ttf");
+}
+
+:root {
+    --bg:          #0B0D0F;
+    --surface:     #12161B;
+    --gold:        #D4AF37;
+    --gold-light:  #F7E6B0;
+    --text:        #F5E6C8;
+    --text-muted:  #C9C6B7;
+    --red:         #B33A3A;
+
+    --gap-size:      15px;
+
+}
+
+body {
+    background-color: var(--surface);
+    color: var(--text);
+    font-family: sourceSerif4;
+}
+
+main {
+    background-color: var(--bg);
+    width: 80vw;
+    max-width: 1400px;
+    margin: auto;
+}
+

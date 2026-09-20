@@ -1,0 +1,8 @@
+--bg:          #0B0D0F;
+--surface:     #12161B;
+--surface-2:   #1A1F24;
+--gold:        #D4AF37;
+--gold-light:  #F7E6B0;
+--text:        #F5E6C8;
+--text-muted:  #C9C6B7;
+--red:         #B33A3A;
